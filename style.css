@@ -1,0 +1,152 @@
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+.navbar{
+background:#020617;
+padding:15px 0;
+}
+.navbar-brand{
+color:#125de7;
+font-size:24px;
+font-weight:bold;
+letter-spacing:1px;
+}
+.navbar-brand:hover{
+color:#38bdf8;
+}
+.nav-link{
+color:#0ba5e2;
+margin-right:15px;
+font-size:16px;
+transition:0.3s;
+}
+.nav-link:hover{
+color:#38bdf8;
+}
+.navbar input{
+border-radius:5px;
+}
+.navbar .btn{
+border:1px solid #38bdf8;
+color:#38bdf8;
+}
+.navbar .btn:hover{
+background:#38bdf8;
+color:rgb(47, 15, 228);
+}
+section.text-white{
+background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+url("assets/pngtree-abstract-blue-digital-network-connection-background-futuristic-technology-concept-picture-image_15972138.jpg");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+min-height:80vh;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+section.text-white h1{
+font-size:50px;
+font-weight:bold;
+margin-bottom:10px;
+}
+section.text-white p{
+font-size:18px;
+margin-bottom:20px;
+}
+section.text-white .btn{
+padding:10px 30px;
+font-size:18px;
+background:#38bdf8;
+border:none;
+}
+section.text-white .btn:hover{
+background:#0284c7;
+}
+.card{
+border:none;
+box-shadow:0 4px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+.card:hover{
+transform:translateY(-8px);
+}
+.card img{
+height:200px;
+object-fit:cover;
+}
+.card-title{
+font-weight:bold;
+}
+.card h6{
+color:#020e14;
+font-weight:bold;
+}
+.card .btn{
+background:#0f172a;
+border:none;
+}
+.card .btn:hover{
+background:#38bdf8;
+}
+form input,
+form textarea{
+border-radius:6px;
+border:1px solid #ccc;
+}
+form button{
+background:#0f172a;
+border:none;
+}
+form button:hover{
+background:#38bdf8;
+}
+footer{
+background:#020617;
+}
+footer h4,
+footer h5{
+color:#38bdf8;
+margin-bottom:15px;
+}
+footer p{
+font-size:14px;
+color:#cbd5f5;
+}
+footer a{
+text-decoration:none;
+color:#e2e8f0;
+font-size:14px;
+}
+footer a:hover{
+color:#38bdf8;
+}
+footer ul li{
+margin-bottom:6px;
+}
+footer .text-center{
+border-top:1px solid #1e293b;
+padding-top:10px;
+margin-top:20px;
+font-size:13px;
+}
+/* Filter Buttons Style */
+button.btn-dark {
+background:#020617;
+border:none;
+}
+button.btn-dark:hover{
+background:#38bdf8;
+}
+
+/* Smooth hide/show */
+.filter-card{
+transition:0.4s ease;
+}
+.filter-section{
+transition:0.4s ease;
+}
